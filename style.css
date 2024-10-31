@@ -1,0 +1,56 @@
+body {
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style video container */
+video {
+  width: 80%;
+  max-width: 600px;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Center table with subtle borders and padding */
+table {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+tr,
+td {
+  border: 1px solid #ffffff;
+  padding: 10px;
+  text-align: center;
+  color: #ffffff;
+}
+
+td {
+  padding: 12px 20px;
+}
+
+button {
+  background-color: #3c8dbc;
+  border: none;
+  padding: 10px 20px;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #337ab7;
+}
